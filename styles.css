@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.info {
+  display: flex;
+}
+@media (max-width: 570px) {
+  .info {
+    display: block;
+  }
+}
+.lkino p,
+a {
+  margin-left: 10px;
+}
+.lkino h1 {
+  margin-left: 10px;
+}
+body {
+  font-size: 17px;
+  font-family: "roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  background: rgba(247, 43, 84, 0.288);
+  color: rgb(74, 74, 74);
+  padding: 1px 10px;
+  border-radius: 30px;
+  margin: 10px;
+  height: 180px;
+  padding-left: 25px;
+}
+.head {
+  margin: 10px;
+}
+#avatar {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.general {
+  font-weight: 800;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.social {
+  background: rgba(247, 43, 84, 0.288);
+  font-size: 1.5em;
+}
+.work {
+  background: rgba(247, 43, 84, 0.288);
+}
+
+.contacts {
+  color: rgb(74, 74, 74);
+  padding: 5px;
+  margin: 10px;
+  background: rgb(209, 215, 239);
+}
+.contacts h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: solid 1px rgb(175, 174, 174);
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+@media (max-width: 570px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.work {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 10px;
+}
+ol {
+  padding-left: 19px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.social span :hover {
+  font-size: 105%;
+  color: blue;
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.btn:hover {
+  color: rgb(74, 74, 74);
+  cursor: pointer;
+  opacity: 0.9;
+}
+.list li {
+  margin-bottom: 4px;
+}
+.list li:nth-child(4) {
+  color: #86898f;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table tr:nth-child(2) {
+  color: #86898f;
+}
